@@ -1,0 +1,23 @@
+#creamos una función para calcular la suma y escribir la sucesión
+def sysf(sf):
+    #vamos a dar los valores a las letras empezando con los primeros 2 numeros de la sucesion, ademas de dar el valor 0 a la variable para que luego se vaya incrementando el valor y al fnal obtengamos la suma total
+    a=0
+    b=1
+    s=0
+    print("La sucesion de fibonachi es:")
+    for e in range(sf):
+       #cuando imprimimos "a", imprimimos la sucesión de fibonachi 
+        print(a)
+        #vamos sumando a "s", el valor de "a"
+        s+=a
+        c=a+b
+        a=b
+        b=c
+    print("La suma es: ",s)
+    #pedimos el termino
+n=int(input("Ingresa hasta el término que deseas: "))
+#como la sucesión de fibonachi empieza n 0 no puede existir un numero menor a este
+if n>0:
+    sysf(n)
+else:
+    print("debe ser si o si un numero mayor a 0")
