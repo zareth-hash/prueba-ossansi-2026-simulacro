@@ -1,0 +1,13 @@
+#pedimos el numero
+n=input("ingresa el número para ver si es capicua o no: ")
+#ponemos el limite
+if int(n)<10**18:
+    #invertimos el numero
+    ni=n[::-1]
+    #comparamos
+    if n==ni:
+        print("SI")
+    else:
+        print("NO")
+else:
+    print("el número es muy grande")
