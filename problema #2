@@ -1,0 +1,17 @@
+#damos a cnocer la idea de la vista de la plaza
+print("Imagina que la plaza es un rectangulo")
+#recolectamos los datos
+print("ningun valor puede pasar de 109")
+n=int(input("dime la altura del rectangulo: "))
+m=int(input("dime la base del rectangulo: "))
+print("las baldosas tienen u tamaño de a*a")
+a=int(input("ingresa el valor de 'a': "))
+#calculamos el area de la plaza y tambien el de las baldosas, luego de eso dividimos la cantidad de metros que hay entre los dos 
+#ningun valor debe pasra de 109
+if n<109 and m<109 and a<109:
+    p=n*m
+    q=a*a
+    y=p%q
+    print("la cantidad de baldosas necesarias es: ",y)
+else:
+    print("el valor de los metros no pueden pasar de 109")
