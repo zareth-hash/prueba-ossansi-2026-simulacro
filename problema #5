@@ -11,3 +11,8 @@ if int(n)<10**18:
         print("NO")
 else:
     print("el número es muy grande")
+
+
+#nombre: Sirpa Condori Zareth Rafaela 
+#curso: 4° grado de secundaria
+#colegio: Marcelo Quiroga Santa Cruz "B"
