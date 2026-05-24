@@ -8,3 +8,8 @@ if ht>=0 and ht<=100 and s>=1 and s<=50:
     print(f"{stt:.2f}")
 else:
     print("las horas de trabajo deben ser menor o igual a 100 y el salario debe ser mayor igual a 1 bs y menor a 50 bs")
+
+
+#nombre: Sirpa Condori Zareth Rafaela 
+#curso: 4° grado de secundaria
+#colegio: Marcelo Quiroga Santa Cruz "B"
