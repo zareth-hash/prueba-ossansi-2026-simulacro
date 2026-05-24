@@ -1,0 +1,10 @@
+ht=int(input("ingresa las horas de trabajo: "))
+s=int(input("ingresa el salario por hora: "))
+he=int(input("ingresa las horas extras: "))
+if ht>=0 and ht<=100 and s>=1 and s<=50:
+    st=ht*s
+    y=he*(s*1.5)
+    stt=y+st
+    print(f"{stt:.2f}")
+else:
+    print("las horas de trabajo deben ser menor o igual a 100 y el salario debe ser mayor igual a 1 bs y menor a 50 bs")
