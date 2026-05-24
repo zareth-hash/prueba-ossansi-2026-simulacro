@@ -1,0 +1,24 @@
+#pedimos el numero de paradas
+n=int(input("ingresa el número de paradas: "))
+if n>=2 and n<=50:
+    #el contador de pasajeros actuales y el maximo que lleva empiezan en 0
+    pa=0
+    pm=0
+    #vamos a pedir el numero de pasajeros el numero de veces que hace las paradas
+    for e in range(n):
+        ps=int(input("\nIngresa personas que subieron: "))
+        if ps>=0:
+            pb=int(input("Ingresa personas que bajaron: "))
+            if pb<=50:
+                #vamos a ir restando los pasajeros que van bajando de los que ya estan adentro y a pasajeros adentro sumamos pasajeros que ya van subiendo
+                pa-=pb
+                pa+=ps
+                if  pa>pm:
+                    pm=pa
+            else:
+                print("no pueden bajar tantos")
+        else:
+            print("deben subir mas pasajeros")
+    print("\nla capacidad mínima del PUMAKATARI es: ",pm)        
+else:
+    print("las paradas deben ser menor igual de 50 y mayor igual de 2")
