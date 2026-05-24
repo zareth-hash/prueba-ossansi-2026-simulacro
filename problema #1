@@ -21,3 +21,6 @@ if n>0:
     sysf(n)
 else:
     print("debe ser si o si un numero mayor a 0")
+#nombre: Sirpa Condori Zareth Rafaela 
+#curso: 4° grado de secundaria
+#colegio: Marcelo Quiroga Santa Cruz "B"
