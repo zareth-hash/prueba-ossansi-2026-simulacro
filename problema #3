@@ -22,3 +22,9 @@ if n>=2 and n<=50:
     print("\nla capacidad mínima del PUMAKATARI es: ",pm)        
 else:
     print("las paradas deben ser menor igual de 50 y mayor igual de 2")
+
+
+#nombre: Sirpa Condori Zareth Rafaela 
+#curso: 4° grado de secundaria
+#colegio: Marcelo Quiroga Santa Cruz "B"
+
