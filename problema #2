@@ -15,3 +15,8 @@ if n<109 and m<109 and a<109:
     print("la cantidad de baldosas necesarias es: ",y)
 else:
     print("el valor de los metros no pueden pasar de 109")
+
+
+#nombre: Sirpa Condori Zareth Rafaela 
+#curso: 4° grado de secundaria
+#colegio: Marcelo Quiroga Santa Cruz "B"
